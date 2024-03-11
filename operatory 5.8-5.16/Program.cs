@@ -33,30 +33,30 @@ for(int i = temp.Length-1; i>=0 ; i--)
     switch (temp)
     {
         case "+":
-            Console.WriteLine("Введіть число 1:\n");
+            Console.Write("Введіть число 1:");
             double num1 =int.Parse(Console.ReadLine());
-            Console.WriteLine("Введіть число 2:\n");
+            Console.Write("Введіть число 2:");
             double num2 =int.Parse(Console.ReadLine());
             Console.WriteLine($"Результат:{num1+num2}");
             break;
         case "-":
-            Console.WriteLine("Введіть число 1:\n");
+            Console.Write("Введіть число 1:");
              num1 =int.Parse(Console.ReadLine());
-            Console.WriteLine("Введіть число 2:\n");
+            Console.Write("Введіть число 2:");
              num2 =int.Parse(Console.ReadLine());
             Console.WriteLine($"Результат:{num1-num2}");
             break;
             case "*":
-            Console.WriteLine("Введіть число 1:\n");
+            Console.Write("Введіть число 1:");
             num1 =int.Parse(Console.ReadLine());
-            Console.WriteLine("Введіть число 2:\n");
+            Console.Write("Введіть число 2:");
             num2 =int.Parse(Console.ReadLine());
             Console.WriteLine($"Результат:{num1*num2}");
             break;
             case "/":
-            Console.WriteLine("Введіть число 1:\n");
+            Console.Write("Введіть число 1:");
             num1 =int.Parse(Console.ReadLine());
-            Console.WriteLine("Введіть число 2:\n");
+            Console.Write("Введіть число 2:");
             num2 =int.Parse(Console.ReadLine());
             Console.WriteLine($"Результат:{num1/num2:f02}");
             break;
